@@ -33,8 +33,11 @@ draymond$minute <- (draymond$period * 12) - draymond$minutes_remaining
 iggy$minute <- (iggy$period * 12) - iggy$minutes_remaining
 
 
+sink("shots-data-summary.txt")
 summary(kd)
 summary(klay)
 summary(draymond)
 summary(iggy)
+
+sink()
 
