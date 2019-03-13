@@ -33,7 +33,9 @@ draymond$minute <- (draymond$period * 12) - draymond$minutes_remaining
 iggy$minute <- (iggy$period * 12) - iggy$minutes_remaining
 
 
-sink("shots-data-summary.txt")
+sink("andre-iguodala-summary.txt")
+summary(iggy)
+sink()
 summary(kd)
 summary(klay)
 summary(draymond)
@@ -41,3 +43,15 @@ summary(iggy)
 
 sink()
 
+
+full_team <- rbind(steph,kd,klay,draymond,iggy)
+
+head(full_team,5)
+
+
+
+write.csv(full_team,'shots-data.csv')
+
+
+
+dim(full_team)
