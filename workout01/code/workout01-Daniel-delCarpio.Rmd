@@ -92,8 +92,7 @@ table3
 Kevin Durant has the best converstion rate out of all the players, at 54%, although he does not attempt the most shots, as that goes to Steph Curry by only 30 more shots attempted than 2nd place Klay Thompson, both of them have conversion rates of around 46%, which is amazing considered they attempted 300 more shots than Kevin Durant. The defensive players, Draymond Green and Andre Iguodala also have conversion rates above 40, especially Andre Iguodala has a conversion rate of almost 52%, which is second only to Kevin Durant. Since Iguodala only took 371 shots during the season, it may be that he only takes shots that he knows he has a chance of making and does not risk missing a shot when one of the 3 offensive power houses do most of the point making. 
 
 
-
-Now lets take a look a closer look the shot locations of the warriors.  
+Now lets take a look a closer look the shot locations of the warriors. By using x-y locations we plotted the location of every shot, with red dots indicating a missed shot, while the blue dots represent shots that were made. 
 
 ```{r out.width='80%', echo = FALSE, fig.align='center'}
 knitr::include_graphics('C:/Users/danie/OneDrive/Documents/GitHub/stat133workout01/workout01/images/gsw-shot-charts.png')
