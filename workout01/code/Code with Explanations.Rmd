@@ -1,5 +1,5 @@
 ---
-title: "workout01-Daniel-delCarpio"
+title: "GSW_Analysis"
 author: "Daniel del Carpio"
 date: "March 12, 2019"
 output: github_document
